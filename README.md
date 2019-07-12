@@ -1,5 +1,9 @@
 # CT検診学会 2019年夏期セミナー講演資料
 
+* [スライド](https://github.com/HumanomeLab/CT2019/blob/master/20190713_CT.pdf)
+* [Jupyter Notebook](https://github.com/HumanomeLab/CT2019/blob/master/CT2019_screening.ipynb)
+  * 文章の記載は Google Colaboratory で読み込んだ場合を想定した記載です。
+
 この資料は、[CT検診学会 2019年夏期セミナー](https://www.jscts.org/index.php?page=seminar_index)の講演のために作成した資料です。
 データは [kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)で公開されている肺炎の方と肺炎でない方のX線画像を利用しています（事例がCTでなくて、すみません。。。） 
 
