@@ -316,9 +316,9 @@ def train_and_test(datadir, label_set, params):
 
     # テストデータでの精度を求める
     y_true, y_pred = calc_test_accuracy(device, dataloaders['test'], dataset_sizes['test'], model, criterion)
-    pd.DataFrame(confusion_matrix(y_true, y_pred), columns=label_set)
+    #pd.DataFrame(confusion_matrix(y_true, y_pred), columns=label_set)
     
-    return model, train_loss_list, val_loss_list
+    return model, train_loss_list, val_loss_list, y_pred
 
 if __name__ == "__main__":
     datadir = "chest_xray_exe"
